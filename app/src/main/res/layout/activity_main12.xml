@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main12"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:paddingBottom="200dp"
+    android:layout_height="match_parent"
+    tools:context="com.example.purvampujari.magicmove.Main12Activity">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:text="POINTS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:id="@+id/textView3"
+        android:background="#118bac"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#000000" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal" >
+        <TextView
+            android:text="WIN"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:id="@+id/textView4"
+            android:textSize="17sp"
+            android:textColor="#000000"
+            android:background="#88d8e1" />
+        <TextView
+            android:text="+ 2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:id="@+id/textView44"
+            android:textSize="17sp"
+            android:textColor="#ffffff"
+            android:background="#662ca1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal" >
+        <TextView
+            android:text="LOSE"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#88d8e1"
+            android:gravity="center_vertical|center_horizontal"
+            android:id="@+id/textView5"
+            android:textSize="17sp"
+            android:textColor="#000000" />
+        <TextView
+            android:text="- 1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="#662ca1"
+            android:layout_weight="1"
+            android:id="@+id/textView55"
+            android:textSize="17sp"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="1dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal" >
+        <TextView
+            android:text="TIE"
+            android:layout_width="match_parent"
+            android:background="#88d8e1"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/textView6"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="17sp"
+            android:textColor="#000000" />
+        <TextView
+            android:text="+ 1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#662ca1"
+            android:gravity="center_vertical|center_horizontal"
+            android:id="@+id/textView66"
+            android:textSize="17sp"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>

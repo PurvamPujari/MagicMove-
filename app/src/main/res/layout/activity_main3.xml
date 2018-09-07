@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.purvampujari.magicmove.Main3Activity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:srcCompat="@mipmap/rrp"
+        android:layout_weight="1"
+        android:layout_alignParentTop="true"
+ android:layout_alignParentLeft="true"
+
+        android:id="@+id/imageView"
+        android:background="#000000"
+        android:onClick="stop_rot" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_toRightOf="@id/imageView"
+    android:background="#000000"
+    android:paddingLeft="50dp"
+    android:layout_weight="2"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Tutorial - Basic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_weight="3"
+        android:textSize="20sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:maxLines="1"
+        android:onClick="tuto"
+        android:textStyle="normal|italic"
+        android:background="#1182a7"
+        android:textColor="#ffffff"
+        android:id="@+id/tut"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+    <TextView
+        android:text="Tutorial - Advance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_weight="3"
+        android:textSize="20sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:maxLines="1"
+        android:textStyle="normal|italic"
+        android:background="#1182a7"
+        android:textColor="#ffffff"
+        android:id="@+id/tu"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:onClick="tu" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/spockt"
+        android:id="@+id/imageViewp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:onClick="stop_flip" />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:id="@+id/textView67"
+            android:layout_weight="5"
+            android:background="#000000" />
+
+    <Button
+        android:text="NEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/button2"
+        android:layout_weight="1"
+        android:onClick="typ"
+        android:elevation="24dp"
+        android:textColor="#000000" />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
+</RelativeLayout>

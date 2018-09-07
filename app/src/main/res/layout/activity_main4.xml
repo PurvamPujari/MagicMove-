@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.purvampujari.magicmove.Main4Activity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView8" />
+    <Button
+        android:text="INTERNET"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="6dp"
+        android:paddingRight="10dp"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/button9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="net" />
+    <Button
+        android:text="BOT"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="98dp"
+        android:id="@+id/button3"
+        android:onClick="bot"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/button9"
+        android:layout_marginLeft="35dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="170dp" />
+</RelativeLayout>

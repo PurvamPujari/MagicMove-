@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main9"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    tools:context="com.example.purvampujari.magicmove.Main9Activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/rrr"
+        android:id="@+id/imageView9" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="110dp"
+        android:onClick="bbp"
+        android:id="@+id/bp"
+        android:layout_height="140dp"
+        android:background="#00ffffff" />
+    <Button
+        android:layout_width="110dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/bsp"
+        android:onClick="bbsp"
+        android:layout_marginLeft="125dp"
+        android:layout_height="140dp"
+        android:background="#00ffffff" />
+    <Button
+        android:layout_width="110dp"
+      android:layout_centerHorizontal="true"
+       android:layout_alignParentTop="true"
+        android:onClick="bbsi"
+        android:id="@+id/bsi"
+        android:background="#00ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_height="90dp" />
+    <Button
+        android:layout_width="110dp"
+      android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="140dp"
+        android:onClick="bbr"
+        android:id="@+id/br"
+        android:layout_marginBottom="10dp"
+        android:layout_height="100dp"
+        android:background="#00ffffff" />
+    <Button
+        android:layout_width="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="135dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="bbl"
+        android:id="@+id/bl"
+        android:layout_height="100dp"
+        android:background="#00ffffff" />
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.purvampujari.magicmove.Main4Activity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView8" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:padding="2dp"
+        android:background="#000000"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="35dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:background="#cc0c08"
+
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="wrap_content"
+                android:background="#000000"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:inputType="textPersonName"
+                android:hint=" Team Name"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:ems="10"
+                android:id="@+id/editText2" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:inputType="textPersonName"
+                android:textColorHint="#ffffff"
+                android:hint=" Password "
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#000000"
+                android:layout_marginBottom="5dp"
+                android:ems="10"
+                android:id="@+id/editText3" />
+        </LinearLayout>
+    </RelativeLayout>
+    <Button
+        android:text=" JOIN "
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="35dp"
+        android:paddingRight="10dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/joi"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="ok" />
+    <Button
+        android:text=" CREATE "
+        android:layout_height="wrap_content"
+        android:layout_marginTop="98dp"
+        android:id="@+id/cre"
+        android:onClick="ok1"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/joi"
+        android:layout_marginLeft="35dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="170dp" />
+
+        android:id="@+id/textView2" />
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.purvampujari.magicmove">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mmm"
+        android:label="MagicMove"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity">
+            <intent-filter>
+                <action android:name="com.example.purvampujari.magicmove.Main2Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main3Activity">
+            <intent-filter>
+                <action android:name="com.example.purvampujari.magicmove.Main3Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main4Activity">
+            <intent-filter>
+                <action android:name="com.example.purvampujari.magicmove.Main4Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main5Activity">
+            <intent-filter>
+                <action android:name="com.example.purvampujari.magicmove.Main5Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main6Activity">
+            <intent-filter>
+                <action android:name="com.example.purvampujari.magicmove.Main6Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main8Activity">
+            <intent-filter>
+                <action android:name="com.example.purvampujari.magicmove.Main8Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main9Activity">
+            <intent-filter>
+                <action android:name="com.example.purvampujari.magicmove.Main9Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main10Activity">
+            <intent-filter>
+                <action android:name="com.example.purvampujari.magicmove.Main10Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main11Activity">
+            <intent-filter>
+                <action android:name="com.example.purvampujari.magicmove.Main11Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main12Activity">
+            <intent-filter>
+                <action android:name="com.example.purvampujari.magicmove.Main12Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".bic" />
+        <activity android:name=".Main16Activity" />
+        <activity android:name=".Main18Activity" />
+        <activity android:name=".Main7Activity" />
+        <activity android:name=".tryyyy">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
