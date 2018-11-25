@@ -1,2 +1,2 @@
 # MagicMove-ML-based-RPSLS-multiplayer-game
-Modified rock paper scissors lizard spock game with ml to suggest game room , users and games moves ...
+Multiplayer modified rock paper scissors lizard spock android game based on realtime-firebase database,create own game rooms and invite friends, additionally can play offline with bots too.
